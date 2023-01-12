@@ -55,25 +55,25 @@ header .header-heading{
 
 
 /* Responsive design for Tablet and Landscape mode device */
-@media screen and (min-width:577px) and (max-width:992px) {
+@media screen and (min-width:993px) and (max-width:1240px) {
     /* Header Section */
-header .header-section{
-        background: linear-gradient(to right,rgb(0, 0, 0),#771d51);
-    }
-    header .header-heading{
-        text-align: center;
-        margin-top: 30px;
-        font-size: 8vw;  
+    .line-break::after{
+        content: '\A';
+        white-space: pre;
     }
     .header-description{
-        text-align: center;
+        line-height: 2.2;
     }
-    .header-btn button{
-        font-size: 2vw;
-        letter-spacing: 2px;
+}
+/* Responsive design for Tablet and Landscape mode device */
+@media screen and (min-width:577px) and (max-width:992px) {
+    /* Header Section */
+    .line-break::after{
+        content: '\A';
+        white-space: pre;
     }
-    .header-btn{
-        text-align: center;
+    .header-description{
+        line-height: 2.2;
     }
 }
 
@@ -102,6 +102,11 @@ header .header-section{
     .header-btn button{
         font-size: 4vw;
         letter-spacing: 2px;
+    }
+
+    .line-break::after{
+        content: '\A';
+        white-space: pre;
     }
     /* Next Part section */
 }
