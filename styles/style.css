@@ -61,7 +61,7 @@ header .header-heading{
     gap: 40px;
     justify-content: center;
     align-items: center;
-    padding: 50px 150px;
+    padding: 50px 130px;
 }
 .img img{
     width: 100%;
@@ -103,6 +103,8 @@ header .header-heading{
     .header-description{
         line-height: 2.2;
     }
+     /* section 01:: */
+ 
 }
 
 
@@ -136,5 +138,19 @@ header .header-heading{
         content: '\A';
         white-space: pre;
     }
-    /* Next Part section */
+    /* section 01:: */
+    .section-1{
+        flex-direction: column;
+        gap: 20px;
+        padding: 30px 60px;
+    }
+    .section1-heading{
+        font-size: 6vw;
+    }
+    .section1-description{
+        margin-top: 10px;
+        line-height: 1.5;
+        font-size: 3vw;
+    }
+
 }
