@@ -1,0 +1,13 @@
+body{
+    max-width: 1440px;
+    margin: 0 auto;
+    border: 3px solid red;
+}
+
+/* Header Section */
+header .header-section{
+    height: 500px;
+    padding: 6vw;
+    background: url('../images/header-image.avif') no-repeat right ,linear-gradient(to right,black,#942666);
+    background-size: contain;
+}
