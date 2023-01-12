@@ -54,8 +54,54 @@ header .header-heading{
 }
 
 
+/* Responsive design for Tablet and Landscape mode device */
+@media screen and (min-width:577px) and (max-width:992px) {
+    /* Header Section */
+header .header-section{
+        background: linear-gradient(to right,rgb(0, 0, 0),#771d51);
+    }
+    header .header-heading{
+        text-align: center;
+        margin-top: 30px;
+        font-size: 8vw;  
+    }
+    .header-description{
+        text-align: center;
+    }
+    .header-btn button{
+        font-size: 2vw;
+        letter-spacing: 2px;
+    }
+    .header-btn{
+        text-align: center;
+    }
+}
 
 
 
 
 /* Responsive Design for Mobile Devices */
+@media screen and (max-width:576px) {
+
+   /* Header Section */
+   header .header-section{
+        background: linear-gradient(to right,rgb(0, 0, 0),#771d51);
+    }
+    header .header-heading{
+        text-align: center;
+        margin-top: 30px;
+        font-size: 12vw;  
+    }
+    .header-description{
+        text-align: center;
+        line-height: 2.2;
+    }
+    .header-btn{
+        text-align: center;
+    }
+    .header-btn button{
+        font-size: 4vw;
+        letter-spacing: 2px;
+    }
+    /* Next Part section */
+}
