@@ -53,6 +53,34 @@ header .header-heading{
     background-color: #9f58f0c5;
 }
 
+/* Main */
+/* section 01  */
+/* Images section */
+.section-1{
+    display: flex;
+    gap: 40px;
+    justify-content: center;
+    align-items: center;
+    padding: 50px 150px;
+}
+.img img{
+    width: 100%;
+    border-radius: 20px;
+}
+.section1-heading{
+    font-size: 4vw;
+    font-family: var(--fontStyle);
+    font-weight: bold;
+}
+.section1-sub{
+    color: var(--btnColor);
+}
+.section1-description{
+    font-family: var(--fontStyle);
+    margin-top: 20px;
+    line-height: 1.5;
+    font-size: 1.2vw;
+}
 
 /* Responsive design for Tablet and Landscape mode device */
 @media screen and (min-width:993px) and (max-width:1240px) {
