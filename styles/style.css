@@ -1,7 +1,6 @@
 body{
     max-width: 1440px;
     margin: 0 auto;
-    border: 3px solid red;
 }
 
 /*Main Styling properties with their variables and css links */
@@ -86,6 +85,8 @@ header .header-heading{
 .section2{
     background-color: #F3F5F6;
 }
+
+
 
 /* Footer */
 footer{
@@ -206,6 +207,12 @@ footer{
         flex-direction: column-reverse;
     }
 
+    /* Section 03 */
+.section-3{
+    display: flex;
+    flex-direction: column-reverse;
+}
+
     /* Footer */
     .footer{
         flex-direction: column-reverse;
@@ -231,6 +238,9 @@ footer{
 
     .email h4{
         font-size: 3.3vw;
+    }
+    .email input{
+        width: 80%;
     }
     .subscribe{
         font-size: 5vw;
