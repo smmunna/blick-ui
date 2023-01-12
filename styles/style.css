@@ -4,10 +4,58 @@ body{
     border: 3px solid red;
 }
 
+/*Main Styling properties with their variables and css links */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+:root{
+    --primarycolor:#f80275;
+    --secondarycolor:white;
+    --fontStyle:'Roboto';
+    --btnColor:#7634BF;
+}
+
 /* Header Section */
 header .header-section{
     height: 500px;
     padding: 6vw;
-    background: url('../images/header-image.avif') no-repeat right ,linear-gradient(to right,black,#942666);
+    background: url('../images/header-image.avif') no-repeat ,linear-gradient(to right,rgb(0, 0, 0),#771d51);
+    background-position: right 20% bottom 45%;
     background-size: contain;
 }
+
+header .header-heading{
+    margin-top: 30px;
+    font-family: var(--fontStyle);
+    font-weight: bold;
+    font-size: 6vw;
+    color: var(--secondarycolor);
+}
+.header-subheading{
+    color: var(--primarycolor);
+}
+
+.header-description{
+    margin-top: 30px;
+    color: var(--secondarycolor);
+    font-family: var(--fontStyle);
+}
+.header-btn button{
+    margin-top: 40px;
+    padding: 15px 35px;
+    background-color: var(--btnColor);
+    border-radius: 30px;
+    color: var(--secondarycolor);
+    font-size: 1.5vw;
+    font-weight: bold;
+    font-family: var(--fontStyle);
+    
+}
+.header-btn button:hover{
+    background-color: #9f58f0c5;
+}
+
+
+
+
+
+
+/* Responsive Design for Mobile Devices */
