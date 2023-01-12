@@ -82,6 +82,54 @@ header .header-heading{
     font-size: 1.2vw;
 }
 
+/* Section02 */
+.section2{
+    background-color: #F3F5F6;
+}
+
+/* Footer */
+footer{
+   background-color: #000000;
+   color: white;
+}
+.footer{
+    padding: 50px 0;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.foot-heading{
+    font-family: var(--fontStyle);
+    margin-top: 20px;
+    font-size: 1.5vw;
+}
+.footer-copyright{
+    font-family: var(--fontStyle);
+    margin-top: 15px;
+    font-style: italic;
+    font-size: 1.1vw;
+}
+
+.subscribe{
+    font-family: var(--fontStyle);
+    font-size: 2vw;
+    font-weight: bold;
+}
+.email h4{
+    font-family: var(--fontStyle);
+    font-size: 1.3vw;
+}
+.email input{
+    padding: 12px;
+    width: 120%;
+    border: hidden;
+    outline: transparent;
+    border-radius: 12px;
+}
+.footer-btn button{
+    font-size: 1.1vw !important;
+}
+
 /* Responsive design for Tablet and Landscape mode device */
 @media screen and (min-width:993px) and (max-width:1240px) {
     /* Header Section */
@@ -104,7 +152,7 @@ header .header-heading{
         line-height: 2.2;
     }
      /* section 01:: */
- 
+    
 }
 
 
@@ -151,6 +199,41 @@ header .header-heading{
         margin-top: 10px;
         line-height: 1.5;
         font-size: 3vw;
+    }
+
+    /* Section 02 */
+    .section-2{
+        flex-direction: column-reverse;
+    }
+
+    /* Footer */
+    .footer{
+        flex-direction: column-reverse;
+        justify-content: flex-start;
+    }
+
+    .foot-heading{
+        margin-top: 10px;
+        font-size: 4.5vw;
+    }
+    .footer-copyright{
+        font-size: 2.5vw;
+    }
+
+    .footer-btn{
+        margin-top: -4vw;
+        margin-bottom: 5vw;
+        text-align: left;
+    }
+    .footer-btn button{
+        font-size: 2.3vw !important;
+    }
+
+    .email h4{
+        font-size: 3.3vw;
+    }
+    .subscribe{
+        font-size: 5vw;
     }
 
 }
